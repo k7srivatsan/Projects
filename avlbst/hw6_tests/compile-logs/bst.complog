@@ -1,0 +1,451 @@
+[ 10%] Built target perf
+[ 55%] Built target kwsys
+[ 80%] Built target testing_utils
+Scanning dependencies of target bst_tests
+[ 85%] Building CXX object bst_tests/CMakeFiles/bst_tests.dir/test_insert.cpp.o
+[ 90%] Building CXX object bst_tests/CMakeFiles/bst_tests.dir/test_remove.cpp.o
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h: In instantiation of 'void BinarySearchTree<Key, Value>::insert(const std::pair<const Key, Value>&) [with Key = int; Value = std::__cxx11::basic_string<char>]':
+/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:168:16:   required from here
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: error: no match for 'operator<=' (operand types are 'const int' and 'std::__cxx11::basic_string<char>')
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /work/hw-ksrivats/hw6/avlbst/print_bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:785,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:1637:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator<=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator<=(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_vector.h:1637:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::vector<_Tp, _Alloc>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/map:62:0,
+                 from /work/hw-ksrivats/hw6/avlbst/print_bst.h:3,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:785,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_multimap.h:1097:5: note: candidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<=(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+     operator<=(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_multimap.h:1097:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::multimap<_Key, _Tp, _Compare, _Alloc>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/map:61:0,
+                 from /work/hw-ksrivats/hw6/avlbst/print_bst.h:3,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:785,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_map.h:1432:5: note: candidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<=(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+     operator<=(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_map.h:1432:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::map<_Key, _Tp, _Compare, _Alloc>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/set:62:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:11,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_multiset.h:934:5: note: candidate: template<class _Key, class _Compare, class _Alloc> bool std::operator<=(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+     operator<=(const multiset<_Key, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_multiset.h:934:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::multiset<_Key, _Compare, _Alloc>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/set:61:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:11,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_set.h:951:5: note: candidate: template<class _Key, class _Compare, class _Alloc> bool std::operator<=(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+     operator<=(const set<_Key, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_set.h:951:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::set<_Key, _Compare, _Alloc>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/set:60:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:11,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_tree.h:1567:5: note: candidate: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator<=(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+     operator<=(const _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_tree.h:1567:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/memory:81:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/shared_ptr.h:434:5: note: candidate: template<class _Tp> bool std::operator<=(std::nullptr_t, const std::shared_ptr<_Tp>&)
+     operator<=(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr.h:434:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   'std::__cxx11::basic_string<char>' is not derived from 'const std::shared_ptr<_Tp>'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/memory:81:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/shared_ptr.h:429:5: note: candidate: template<class _Tp> bool std::operator<=(const std::shared_ptr<_Tp>&, std::nullptr_t)
+     operator<=(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr.h:429:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::shared_ptr<_Tp>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/memory:81:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/shared_ptr.h:424:5: note: candidate: template<class _Tp, class _Up> bool std::operator<=(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Up>&)
+     operator<=(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr.h:424:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::shared_ptr<_Tp>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/7/memory:81,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/shared_ptr_base.h:1479:5: note: candidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<=(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)
+     operator<=(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr_base.h:1479:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   'std::__cxx11::basic_string<char>' is not derived from 'const std::__shared_ptr<_Tp, _Lp>'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/7/memory:81,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/shared_ptr_base.h:1474:5: note: candidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<=(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)
+     operator<=(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr_base.h:1474:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::__shared_ptr<_Tp, _Lp>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/7/memory:81,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/shared_ptr_base.h:1468:5: note: candidate: template<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator<=(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)
+     operator<=(const __shared_ptr<_Tp1, _Lp>& __a,
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr_base.h:1468:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::__shared_ptr<_Tp1, _Lp>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/memory:80:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:748:5: note: candidate: template<class _Tp, class _Dp> bool std::operator<=(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)
+     operator<=(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+     ^~~~~~~~
+/usr/include/c++/7/bits/unique_ptr.h:748:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   'std::__cxx11::basic_string<char>' is not derived from 'const std::unique_ptr<_Tp, _Dp>'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/memory:80:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:743:5: note: candidate: template<class _Tp, class _Dp> bool std::operator<=(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)
+     operator<=(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+     ^~~~~~~~
+/usr/include/c++/7/bits/unique_ptr.h:743:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::unique_ptr<_Tp, _Dp>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/memory:80:0,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:737:5: note: candidate: template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<=(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)
+     operator<=(const unique_ptr<_Tp, _Dp>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/unique_ptr.h:737:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::unique_ptr<_Tp, _Dp>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/unique_ptr.h:37:0,
+                 from /usr/include/c++/7/memory:80,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/tuple:1435:5: note: candidate: template<class ... _TElements, class ... _UElements> constexpr bool std::operator<=(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)
+     operator<=(const tuple<_TElements...>& __t,
+     ^~~~~~~~
+/usr/include/c++/7/tuple:1435:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::tuple<_Tps ...>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/tuple:39:0,
+                 from /usr/include/c++/7/bits/unique_ptr.h:37,
+                 from /usr/include/c++/7/memory:80,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:9,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/array:275:5: note: candidate: template<class _Tp, long unsigned int _Nm> bool std::operator<=(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)
+     operator<=(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+     ^~~~~~~~
+/usr/include/c++/7/array:275:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::array<_Tp, _Nm>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/basic_string.h:6195:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<=(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<=(const _CharT* __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:6195:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const _CharT*' and 'int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/basic_string.h:6183:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator<=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:6183:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/basic_string.h:6170:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:6170:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:1163:5: note: candidate: template<class _Iterator> bool std::operator<=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+     operator<=(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:1163:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::move_iterator<_IteratorL>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:1157:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator<=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator<=(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:1157:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::move_iterator<_IteratorL>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:364:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator<=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator<=(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:364:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:326:5: note: candidate: template<class _Iterator> bool std::operator<=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator<=(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:326:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_pair.h:473:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator<=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator<=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_pair.h:473:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const std::pair<_T1, _T2>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:926:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator<=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator<=(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:926:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from /work/hw-ksrivats/hw6/avlbst/bst.h:4,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:919:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator<=(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator<=(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:919:5: note:   template argument deduction/substitution failed:
+In file included from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./publicified_bst.h:10:0,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/./check_bst.h:8,
+                 from /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/test_remove.cpp:1:
+/work/hw-ksrivats/hw6/avlbst/bst.h:465:35: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>' and 'const int'
+             if(keyValuePair.first <= curr->getValue()) {
+bst_tests/CMakeFiles/bst_tests.dir/build.make:86: recipe for target 'bst_tests/CMakeFiles/bst_tests.dir/test_remove.cpp.o' failed
+make[7]: *** [bst_tests/CMakeFiles/bst_tests.dir/test_remove.cpp.o] Error 1
+CMakeFiles/Makefile2:649: recipe for target 'bst_tests/CMakeFiles/bst_tests.dir/all' failed
+make[6]: *** [bst_tests/CMakeFiles/bst_tests.dir/all] Error 2
+CMakeFiles/Makefile2:661: recipe for target 'bst_tests/CMakeFiles/bst_tests.dir/rule' failed
+make[5]: *** [bst_tests/CMakeFiles/bst_tests.dir/rule] Error 2
+Makefile:311: recipe for target 'bst_tests' failed
+make[4]: *** [bst_tests] Error 2

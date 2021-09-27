@@ -1,0 +1,191 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST BST.ConstructionDestruction:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.JustRoot:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.DoubleInsertLeft:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.DoubleInsertRight:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.InsertZigZigLeft:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.InsertZigZigRight:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.InsertZigZagLeft:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.InsertZigZagRight:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.7Elements:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTClear.Clear:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTFind.InvalidFind:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.Duplicates:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.BasicRandom:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.Random50x30ele:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTInsert.Random3x1000ele:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRemove.EmptyTree:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRemove.NodeMismatch:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRemove.SingleRemove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRemove.RightChildRemove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRemove.LeftChildRemove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRemove.TwoChildrenRemove_3Node:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRemove.TwoChildrenRemove_4Node:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRemove.Random50x30ele:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTStress.InsertRemove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTStress.Remove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTBalance.EmptyTree:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTBalance.OneNode:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTBalance.3Nodes_Unbalanced:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTBalance.3Nodes_Balanced:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTBalance.UnbalancedSubtree:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTBalance.Random50x30ele:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRuntime.InsertBalanced:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.InsertBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.InsertBalanced
+>> Evaluating runtime of BinarySearchTree::insert() with balanced insertions
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRuntime.RemoveBalancedRoot:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.RemoveBalancedRoot
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.RemoveBalancedRoot
+>> Evaluating runtime of BinarySearchTree::remove() root with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRuntime.RemoveBalancedMin:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.RemoveBalancedMin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.RemoveBalancedMin
+>> Evaluating runtime of BinarySearchTree::remove() root with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRuntime.GetSmallestNodeBalanced:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.GetSmallestNodeBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.GetSmallestNodeBalanced
+>> Evaluating runtime of BinarySearchTree::getSmallestNode() with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRuntime.FindNodeBalanced:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.FindNodeBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.FindNodeBalanced
+>> Evaluating runtime of BinarySearchTree::find() with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST BSTRuntime.IteratorBalanced:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.IteratorBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.IteratorBalanced
+>> Evaluating runtime of using BinarySearchTree::iterator to iterate over all keys
+Testing with 2^0 (1) elements (trial 1/30)

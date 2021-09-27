@@ -1,0 +1,58 @@
+Test AVLBST.ConstructionDestruction did not run
+Test AVLInsert.OneNode did not run
+Test AVLInsert.DoubleInsertLeft did not run
+Test AVLInsert.DoubleInsertRight did not run
+Test AVLInsert.InsertZigZigLeft did not run
+Test AVLInsert.InsertZigZigRight did not run
+Test AVLInsert.InsertZigZagLeft did not run
+Test AVLInsert.InsertZigZagRight did not run
+Test AVLInsert.7Elements did not run
+Test AVLClear.Clear did not run
+Test AVLInsert.Duplicates did not run
+Test AVLInsert.Random50x30ele did not run
+Test AVLInsert.Random3x1000ele did not run
+Test AVLRemove.EmptyTree did not run
+Test AVLRemove.NodeMismatch did not run
+Test AVLRemove.SingleRemove did not run
+Test AVLRemove.RightChildRemove did not run
+Test AVLRemove.LeftChildRemove did not run
+Test AVLRemove.TwoChildrenRemove_3Node did not run
+Test AVLRemove.TwoChildrenRemove_4Node did not run
+Test AVLRemove.Random50x30ele did not run
+Test AVLStress.InsertRemove did not run
+Test AVLStress.Remove did not run
+Test AVLRuntime.InsertAscending crashed
+Test AVLRuntime.InsertDescending crashed
+Test AVLRuntime.InsertRandom crashed
+Test AVLRuntime.RemoveMin crashed
+Test AVLRuntime.RemoveMax crashed
+
+Failed 28 tests:
+	Test AVLBST.ConstructionDestruction
+	Test AVLInsert.OneNode
+	Test AVLInsert.DoubleInsertLeft
+	Test AVLInsert.DoubleInsertRight
+	Test AVLInsert.InsertZigZigLeft
+	Test AVLInsert.InsertZigZigRight
+	Test AVLInsert.InsertZigZagLeft
+	Test AVLInsert.InsertZigZagRight
+	Test AVLInsert.7Elements
+	Test AVLClear.Clear
+	Test AVLInsert.Duplicates
+	Test AVLInsert.Random50x30ele
+	Test AVLInsert.Random3x1000ele
+	Test AVLRemove.EmptyTree
+	Test AVLRemove.NodeMismatch
+	Test AVLRemove.SingleRemove
+	Test AVLRemove.RightChildRemove
+	Test AVLRemove.LeftChildRemove
+	Test AVLRemove.TwoChildrenRemove_3Node
+	Test AVLRemove.TwoChildrenRemove_4Node
+	Test AVLRemove.Random50x30ele
+	Test AVLStress.InsertRemove
+	Test AVLStress.Remove
+	Test AVLRuntime.InsertAscending
+	Test AVLRuntime.InsertDescending
+	Test AVLRuntime.InsertRandom
+	Test AVLRuntime.RemoveMin
+	Test AVLRuntime.RemoveMax

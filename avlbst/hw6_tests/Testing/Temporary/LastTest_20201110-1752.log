@@ -1,0 +1,1120 @@
+Start testing: Nov 10 17:52 UTC
+----------------------------------------------------------
+1/65 Testing: BST.ConstructionDestruction
+1/65 Test: BST.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BST.ConstructionDestruction"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BST.ConstructionDestruction" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BST.ConstructionDestruction" end time: Nov 10 17:52 UTC
+"BST.ConstructionDestruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/65 Testing: BSTInsert.JustRoot
+2/65 Test: BSTInsert.JustRoot
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.JustRoot"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.JustRoot" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.JustRoot" end time: Nov 10 17:52 UTC
+"BSTInsert.JustRoot" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/65 Testing: BSTInsert.DoubleInsertLeft
+3/65 Test: BSTInsert.DoubleInsertLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.DoubleInsertLeft"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.DoubleInsertLeft" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.DoubleInsertLeft" end time: Nov 10 17:52 UTC
+"BSTInsert.DoubleInsertLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/65 Testing: BSTInsert.DoubleInsertRight
+4/65 Test: BSTInsert.DoubleInsertRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.DoubleInsertRight"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.DoubleInsertRight" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.DoubleInsertRight" end time: Nov 10 17:52 UTC
+"BSTInsert.DoubleInsertRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/65 Testing: BSTInsert.InsertZigZigLeft
+5/65 Test: BSTInsert.InsertZigZigLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZigLeft"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.InsertZigZigLeft" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.InsertZigZigLeft" end time: Nov 10 17:52 UTC
+"BSTInsert.InsertZigZigLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/65 Testing: BSTInsert.InsertZigZigRight
+6/65 Test: BSTInsert.InsertZigZigRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZigRight"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.InsertZigZigRight" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.InsertZigZigRight" end time: Nov 10 17:52 UTC
+"BSTInsert.InsertZigZigRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/65 Testing: BSTInsert.InsertZigZagLeft
+7/65 Test: BSTInsert.InsertZigZagLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZagLeft"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.InsertZigZagLeft" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.InsertZigZagLeft" end time: Nov 10 17:52 UTC
+"BSTInsert.InsertZigZagLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/65 Testing: BSTInsert.InsertZigZagRight
+8/65 Test: BSTInsert.InsertZigZagRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZagRight"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.InsertZigZagRight" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.InsertZigZagRight" end time: Nov 10 17:52 UTC
+"BSTInsert.InsertZigZagRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/65 Testing: BSTInsert.7Elements
+9/65 Test: BSTInsert.7Elements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.7Elements"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.7Elements" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.7Elements" end time: Nov 10 17:52 UTC
+"BSTInsert.7Elements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/65 Testing: BSTClear.Clear
+10/65 Test: BSTClear.Clear
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTClear.Clear"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTClear.Clear" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTClear.Clear" end time: Nov 10 17:52 UTC
+"BSTClear.Clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/65 Testing: BSTFind.InvalidFind
+11/65 Test: BSTFind.InvalidFind
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTFind.InvalidFind"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTFind.InvalidFind" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTFind.InvalidFind" end time: Nov 10 17:52 UTC
+"BSTFind.InvalidFind" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/65 Testing: BSTInsert.Duplicates
+12/65 Test: BSTInsert.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Duplicates"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.Duplicates" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.Duplicates" end time: Nov 10 17:52 UTC
+"BSTInsert.Duplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/65 Testing: BSTInsert.BasicRandom
+13/65 Test: BSTInsert.BasicRandom
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.BasicRandom"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.BasicRandom" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.BasicRandom" end time: Nov 10 17:52 UTC
+"BSTInsert.BasicRandom" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/65 Testing: BSTInsert.Random50x30ele
+14/65 Test: BSTInsert.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Random50x30ele"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.Random50x30ele" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.Random50x30ele" end time: Nov 10 17:52 UTC
+"BSTInsert.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/65 Testing: BSTInsert.Random3x1000ele
+15/65 Test: BSTInsert.Random3x1000ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Random3x1000ele"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTInsert.Random3x1000ele" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTInsert.Random3x1000ele" end time: Nov 10 17:52 UTC
+"BSTInsert.Random3x1000ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/65 Testing: BSTRemove.EmptyTree
+16/65 Test: BSTRemove.EmptyTree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.EmptyTree"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRemove.EmptyTree" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRemove.EmptyTree" end time: Nov 10 17:52 UTC
+"BSTRemove.EmptyTree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/65 Testing: BSTRemove.NodeMismatch
+17/65 Test: BSTRemove.NodeMismatch
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.NodeMismatch"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRemove.NodeMismatch" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRemove.NodeMismatch" end time: Nov 10 17:52 UTC
+"BSTRemove.NodeMismatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/65 Testing: BSTRemove.SingleRemove
+18/65 Test: BSTRemove.SingleRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.SingleRemove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRemove.SingleRemove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRemove.SingleRemove" end time: Nov 10 17:52 UTC
+"BSTRemove.SingleRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/65 Testing: BSTRemove.RightChildRemove
+19/65 Test: BSTRemove.RightChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.RightChildRemove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRemove.RightChildRemove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRemove.RightChildRemove" end time: Nov 10 17:52 UTC
+"BSTRemove.RightChildRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/65 Testing: BSTRemove.LeftChildRemove
+20/65 Test: BSTRemove.LeftChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.LeftChildRemove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRemove.LeftChildRemove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRemove.LeftChildRemove" end time: Nov 10 17:52 UTC
+"BSTRemove.LeftChildRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/65 Testing: BSTRemove.TwoChildrenRemove_3Node
+21/65 Test: BSTRemove.TwoChildrenRemove_3Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.TwoChildrenRemove_3Node"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRemove.TwoChildrenRemove_3Node" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRemove.TwoChildrenRemove_3Node" end time: Nov 10 17:52 UTC
+"BSTRemove.TwoChildrenRemove_3Node" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/65 Testing: BSTRemove.TwoChildrenRemove_4Node
+22/65 Test: BSTRemove.TwoChildrenRemove_4Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.TwoChildrenRemove_4Node"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRemove.TwoChildrenRemove_4Node" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRemove.TwoChildrenRemove_4Node" end time: Nov 10 17:52 UTC
+"BSTRemove.TwoChildrenRemove_4Node" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/65 Testing: BSTRemove.Random50x30ele
+23/65 Test: BSTRemove.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.Random50x30ele"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRemove.Random50x30ele" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRemove.Random50x30ele" end time: Nov 10 17:52 UTC
+"BSTRemove.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/65 Testing: BSTStress.InsertRemove
+24/65 Test: BSTStress.InsertRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTStress.InsertRemove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTStress.InsertRemove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTStress.InsertRemove" end time: Nov 10 17:52 UTC
+"BSTStress.InsertRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/65 Testing: BSTStress.Remove
+25/65 Test: BSTStress.Remove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTStress.Remove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTStress.Remove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTStress.Remove" end time: Nov 10 17:52 UTC
+"BSTStress.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/65 Testing: BSTBalance.EmptyTree
+26/65 Test: BSTBalance.EmptyTree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.EmptyTree"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTBalance.EmptyTree" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTBalance.EmptyTree" end time: Nov 10 17:52 UTC
+"BSTBalance.EmptyTree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/65 Testing: BSTBalance.OneNode
+27/65 Test: BSTBalance.OneNode
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.OneNode"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTBalance.OneNode" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTBalance.OneNode" end time: Nov 10 17:52 UTC
+"BSTBalance.OneNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/65 Testing: BSTBalance.3Nodes_Unbalanced
+28/65 Test: BSTBalance.3Nodes_Unbalanced
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.3Nodes_Unbalanced"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTBalance.3Nodes_Unbalanced" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTBalance.3Nodes_Unbalanced" end time: Nov 10 17:52 UTC
+"BSTBalance.3Nodes_Unbalanced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/65 Testing: BSTBalance.3Nodes_Balanced
+29/65 Test: BSTBalance.3Nodes_Balanced
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.3Nodes_Balanced"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTBalance.3Nodes_Balanced" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTBalance.3Nodes_Balanced" end time: Nov 10 17:52 UTC
+"BSTBalance.3Nodes_Balanced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/65 Testing: BSTBalance.UnbalancedSubtree
+30/65 Test: BSTBalance.UnbalancedSubtree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.UnbalancedSubtree"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTBalance.UnbalancedSubtree" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"BSTBalance.UnbalancedSubtree" end time: Nov 10 17:52 UTC
+"BSTBalance.UnbalancedSubtree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/65 Testing: BSTBalance.Random50x30ele
+31/65 Test: BSTBalance.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.Random50x30ele"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTBalance.Random50x30ele" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTBalance.Random50x30ele" end time: Nov 10 17:52 UTC
+"BSTBalance.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/65 Testing: BSTRuntime.InsertBalanced
+32/65 Test: BSTRuntime.InsertBalanced
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests" "--gtest_filter=BSTRuntime.InsertBalanced"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRuntime.InsertBalanced" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.InsertBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.InsertBalanced
+>> Evaluating runtime of BinarySearchTree::insert() with balanced insertions
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRuntime.InsertBalanced" end time: Nov 10 17:52 UTC
+"BSTRuntime.InsertBalanced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/65 Testing: BSTRuntime.RemoveBalancedRoot
+33/65 Test: BSTRuntime.RemoveBalancedRoot
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests" "--gtest_filter=BSTRuntime.RemoveBalancedRoot"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRuntime.RemoveBalancedRoot" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.RemoveBalancedRoot
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.RemoveBalancedRoot
+>> Evaluating runtime of BinarySearchTree::remove() root with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRuntime.RemoveBalancedRoot" end time: Nov 10 17:52 UTC
+"BSTRuntime.RemoveBalancedRoot" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/65 Testing: BSTRuntime.RemoveBalancedMin
+34/65 Test: BSTRuntime.RemoveBalancedMin
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests" "--gtest_filter=BSTRuntime.RemoveBalancedMin"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRuntime.RemoveBalancedMin" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.RemoveBalancedMin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.RemoveBalancedMin
+>> Evaluating runtime of BinarySearchTree::remove() root with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRuntime.RemoveBalancedMin" end time: Nov 10 17:52 UTC
+"BSTRuntime.RemoveBalancedMin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/65 Testing: BSTRuntime.GetSmallestNodeBalanced
+35/65 Test: BSTRuntime.GetSmallestNodeBalanced
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests" "--gtest_filter=BSTRuntime.GetSmallestNodeBalanced"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRuntime.GetSmallestNodeBalanced" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.GetSmallestNodeBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.GetSmallestNodeBalanced
+>> Evaluating runtime of BinarySearchTree::getSmallestNode() with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRuntime.GetSmallestNodeBalanced" end time: Nov 10 17:52 UTC
+"BSTRuntime.GetSmallestNodeBalanced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/65 Testing: BSTRuntime.FindNodeBalanced
+36/65 Test: BSTRuntime.FindNodeBalanced
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests" "--gtest_filter=BSTRuntime.FindNodeBalanced"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRuntime.FindNodeBalanced" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.FindNodeBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.FindNodeBalanced
+>> Evaluating runtime of BinarySearchTree::find() with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRuntime.FindNodeBalanced" end time: Nov 10 17:52 UTC
+"BSTRuntime.FindNodeBalanced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/65 Testing: BSTRuntime.IteratorBalanced
+37/65 Test: BSTRuntime.IteratorBalanced
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests" "--gtest_filter=BSTRuntime.IteratorBalanced"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests
+"BSTRuntime.IteratorBalanced" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.IteratorBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.IteratorBalanced
+>> Evaluating runtime of using BinarySearchTree::iterator to iterate over all keys
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"BSTRuntime.IteratorBalanced" end time: Nov 10 17:52 UTC
+"BSTRuntime.IteratorBalanced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/65 Testing: AVLBST.ConstructionDestruction
+38/65 Test: AVLBST.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLBST.ConstructionDestruction"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLBST.ConstructionDestruction" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLBST.ConstructionDestruction" end time: Nov 10 17:52 UTC
+"AVLBST.ConstructionDestruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/65 Testing: AVLInsert.OneNode
+39/65 Test: AVLInsert.OneNode
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.OneNode"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.OneNode" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.OneNode" end time: Nov 10 17:52 UTC
+"AVLInsert.OneNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/65 Testing: AVLInsert.DoubleInsertLeft
+40/65 Test: AVLInsert.DoubleInsertLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertLeft"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.DoubleInsertLeft" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.DoubleInsertLeft" end time: Nov 10 17:52 UTC
+"AVLInsert.DoubleInsertLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/65 Testing: AVLInsert.DoubleInsertRight
+41/65 Test: AVLInsert.DoubleInsertRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertRight"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.DoubleInsertRight" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.DoubleInsertRight" end time: Nov 10 17:52 UTC
+"AVLInsert.DoubleInsertRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/65 Testing: AVLInsert.InsertZigZigLeft
+42/65 Test: AVLInsert.InsertZigZigLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigLeft"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.InsertZigZigLeft" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.InsertZigZigLeft" end time: Nov 10 17:52 UTC
+"AVLInsert.InsertZigZigLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/65 Testing: AVLInsert.InsertZigZigRight
+43/65 Test: AVLInsert.InsertZigZigRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigRight"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.InsertZigZigRight" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.InsertZigZigRight" end time: Nov 10 17:52 UTC
+"AVLInsert.InsertZigZigRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/65 Testing: AVLInsert.InsertZigZagLeft
+44/65 Test: AVLInsert.InsertZigZagLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagLeft"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.InsertZigZagLeft" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.InsertZigZagLeft" end time: Nov 10 17:52 UTC
+"AVLInsert.InsertZigZagLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/65 Testing: AVLInsert.InsertZigZagRight
+45/65 Test: AVLInsert.InsertZigZagRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagRight"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.InsertZigZagRight" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.InsertZigZagRight" end time: Nov 10 17:52 UTC
+"AVLInsert.InsertZigZagRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/65 Testing: AVLInsert.7Elements
+46/65 Test: AVLInsert.7Elements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.7Elements"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.7Elements" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.7Elements" end time: Nov 10 17:52 UTC
+"AVLInsert.7Elements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/65 Testing: AVLClear.Clear
+47/65 Test: AVLClear.Clear
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLClear.Clear"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLClear.Clear" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLClear.Clear" end time: Nov 10 17:52 UTC
+"AVLClear.Clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/65 Testing: AVLInsert.Duplicates
+48/65 Test: AVLInsert.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Duplicates"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.Duplicates" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.Duplicates" end time: Nov 10 17:52 UTC
+"AVLInsert.Duplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/65 Testing: AVLInsert.Random50x30ele
+49/65 Test: AVLInsert.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random50x30ele"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.Random50x30ele" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.Random50x30ele" end time: Nov 10 17:52 UTC
+"AVLInsert.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/65 Testing: AVLInsert.Random3x1000ele
+50/65 Test: AVLInsert.Random3x1000ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random3x1000ele"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLInsert.Random3x1000ele" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLInsert.Random3x1000ele" end time: Nov 10 17:52 UTC
+"AVLInsert.Random3x1000ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/65 Testing: AVLRemove.EmptyTree
+51/65 Test: AVLRemove.EmptyTree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.EmptyTree"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRemove.EmptyTree" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.EmptyTree" end time: Nov 10 17:52 UTC
+"AVLRemove.EmptyTree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/65 Testing: AVLRemove.NodeMismatch
+52/65 Test: AVLRemove.NodeMismatch
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.NodeMismatch"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRemove.NodeMismatch" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.NodeMismatch" end time: Nov 10 17:52 UTC
+"AVLRemove.NodeMismatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/65 Testing: AVLRemove.SingleRemove
+53/65 Test: AVLRemove.SingleRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.SingleRemove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRemove.SingleRemove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.SingleRemove" end time: Nov 10 17:52 UTC
+"AVLRemove.SingleRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/65 Testing: AVLRemove.RightChildRemove
+54/65 Test: AVLRemove.RightChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.RightChildRemove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRemove.RightChildRemove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.RightChildRemove" end time: Nov 10 17:52 UTC
+"AVLRemove.RightChildRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/65 Testing: AVLRemove.LeftChildRemove
+55/65 Test: AVLRemove.LeftChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.LeftChildRemove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRemove.LeftChildRemove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.LeftChildRemove" end time: Nov 10 17:52 UTC
+"AVLRemove.LeftChildRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/65 Testing: AVLRemove.TwoChildrenRemove_3Node
+56/65 Test: AVLRemove.TwoChildrenRemove_3Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_3Node"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRemove.TwoChildrenRemove_3Node" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.TwoChildrenRemove_3Node" end time: Nov 10 17:52 UTC
+"AVLRemove.TwoChildrenRemove_3Node" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/65 Testing: AVLRemove.TwoChildrenRemove_4Node
+57/65 Test: AVLRemove.TwoChildrenRemove_4Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_4Node"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRemove.TwoChildrenRemove_4Node" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.TwoChildrenRemove_4Node" end time: Nov 10 17:52 UTC
+"AVLRemove.TwoChildrenRemove_4Node" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/65 Testing: AVLRemove.Random50x30ele
+58/65 Test: AVLRemove.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.Random50x30ele"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRemove.Random50x30ele" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.Random50x30ele" end time: Nov 10 17:52 UTC
+"AVLRemove.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/65 Testing: AVLStress.InsertRemove
+59/65 Test: AVLStress.InsertRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLStress.InsertRemove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLStress.InsertRemove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLStress.InsertRemove" end time: Nov 10 17:52 UTC
+"AVLStress.InsertRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/65 Testing: AVLStress.Remove
+60/65 Test: AVLStress.Remove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLStress.Remove"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLStress.Remove" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AVLStress.Remove" end time: Nov 10 17:52 UTC
+"AVLStress.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/65 Testing: AVLRuntime.InsertAscending
+61/65 Test: AVLRuntime.InsertAscending
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.InsertAscending"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRuntime.InsertAscending" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertAscending
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertAscending
+>> Evaluating runtime of AVLTree::insert() with keys in ascending order
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRuntime.InsertAscending" end time: Nov 10 17:52 UTC
+"AVLRuntime.InsertAscending" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/65 Testing: AVLRuntime.InsertDescending
+62/65 Test: AVLRuntime.InsertDescending
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.InsertDescending"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRuntime.InsertDescending" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertDescending
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertDescending
+>> Evaluating runtime of AVLTree::insert() with keys in descending order
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRuntime.InsertDescending" end time: Nov 10 17:52 UTC
+"AVLRuntime.InsertDescending" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/65 Testing: AVLRuntime.InsertRandom
+63/65 Test: AVLRuntime.InsertRandom
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.InsertRandom"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRuntime.InsertRandom" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertRandom
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertRandom
+>> Evaluating runtime of AVLTree::insert() with keys in random order
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRuntime.InsertRandom" end time: Nov 10 17:52 UTC
+"AVLRuntime.InsertRandom" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/65 Testing: AVLRuntime.RemoveMin
+64/65 Test: AVLRuntime.RemoveMin
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.RemoveMin"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRuntime.RemoveMin" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.RemoveMin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.RemoveMin
+>> Evaluating runtime of AVLTree::remove() on min element
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRuntime.RemoveMin" end time: Nov 10 17:52 UTC
+"AVLRuntime.RemoveMin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/65 Testing: AVLRuntime.RemoveMax
+65/65 Test: AVLRuntime.RemoveMax
+Command: "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.RemoveMax"
+Directory: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests
+"AVLRuntime.RemoveMax" start time: Nov 10 17:52 UTC
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.RemoveMax
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.RemoveMax
+>> Evaluating runtime of AVLTree::remove() on max element
+Testing with 2^0 (1) elements (trial 1/30)
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRuntime.RemoveMax" end time: Nov 10 17:52 UTC
+"AVLRuntime.RemoveMax" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 10 17:52 UTC

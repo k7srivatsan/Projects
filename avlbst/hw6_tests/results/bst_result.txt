@@ -1,0 +1,76 @@
+Test BST.ConstructionDestruction did not run
+Test BSTInsert.JustRoot did not run
+Test BSTInsert.DoubleInsertLeft did not run
+Test BSTInsert.DoubleInsertRight did not run
+Test BSTInsert.InsertZigZigLeft did not run
+Test BSTInsert.InsertZigZigRight did not run
+Test BSTInsert.InsertZigZagLeft did not run
+Test BSTInsert.InsertZigZagRight did not run
+Test BSTInsert.7Elements did not run
+Test BSTClear.Clear did not run
+Test BSTFind.InvalidFind did not run
+Test BSTInsert.Duplicates did not run
+Test BSTInsert.BasicRandom did not run
+Test BSTInsert.Random50x30ele did not run
+Test BSTInsert.Random3x1000ele did not run
+Test BSTRemove.EmptyTree did not run
+Test BSTRemove.NodeMismatch did not run
+Test BSTRemove.SingleRemove did not run
+Test BSTRemove.RightChildRemove did not run
+Test BSTRemove.LeftChildRemove did not run
+Test BSTRemove.TwoChildrenRemove_3Node did not run
+Test BSTRemove.TwoChildrenRemove_4Node did not run
+Test BSTRemove.Random50x30ele did not run
+Test BSTStress.InsertRemove did not run
+Test BSTStress.Remove did not run
+Test BSTBalance.EmptyTree did not run
+Test BSTBalance.OneNode did not run
+Test BSTBalance.3Nodes_Unbalanced did not run
+Test BSTBalance.3Nodes_Balanced did not run
+Test BSTBalance.UnbalancedSubtree did not run
+Test BSTBalance.Random50x30ele did not run
+Test BSTRuntime.InsertBalanced crashed
+Test BSTRuntime.RemoveBalancedRoot crashed
+Test BSTRuntime.RemoveBalancedMin crashed
+Test BSTRuntime.GetSmallestNodeBalanced crashed
+Test BSTRuntime.FindNodeBalanced crashed
+Test BSTRuntime.IteratorBalanced crashed
+
+Failed 37 tests:
+	Test BST.ConstructionDestruction
+	Test BSTInsert.JustRoot
+	Test BSTInsert.DoubleInsertLeft
+	Test BSTInsert.DoubleInsertRight
+	Test BSTInsert.InsertZigZigLeft
+	Test BSTInsert.InsertZigZigRight
+	Test BSTInsert.InsertZigZagLeft
+	Test BSTInsert.InsertZigZagRight
+	Test BSTInsert.7Elements
+	Test BSTClear.Clear
+	Test BSTFind.InvalidFind
+	Test BSTInsert.Duplicates
+	Test BSTInsert.BasicRandom
+	Test BSTInsert.Random50x30ele
+	Test BSTInsert.Random3x1000ele
+	Test BSTRemove.EmptyTree
+	Test BSTRemove.NodeMismatch
+	Test BSTRemove.SingleRemove
+	Test BSTRemove.RightChildRemove
+	Test BSTRemove.LeftChildRemove
+	Test BSTRemove.TwoChildrenRemove_3Node
+	Test BSTRemove.TwoChildrenRemove_4Node
+	Test BSTRemove.Random50x30ele
+	Test BSTStress.InsertRemove
+	Test BSTStress.Remove
+	Test BSTBalance.EmptyTree
+	Test BSTBalance.OneNode
+	Test BSTBalance.3Nodes_Unbalanced
+	Test BSTBalance.3Nodes_Balanced
+	Test BSTBalance.UnbalancedSubtree
+	Test BSTBalance.Random50x30ele
+	Test BSTRuntime.InsertBalanced
+	Test BSTRuntime.RemoveBalancedRoot
+	Test BSTRuntime.RemoveBalancedMin
+	Test BSTRuntime.GetSmallestNodeBalanced
+	Test BSTRuntime.FindNodeBalanced
+	Test BSTRuntime.IteratorBalanced

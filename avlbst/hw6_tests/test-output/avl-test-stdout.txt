@@ -1,0 +1,148 @@
+
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLBST.ConstructionDestruction:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.OneNode:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.DoubleInsertLeft:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.DoubleInsertRight:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.InsertZigZigLeft:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.InsertZigZigRight:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.InsertZigZagLeft:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.InsertZigZagRight:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.7Elements:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLClear.Clear:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.Duplicates:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.Random50x30ele:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLInsert.Random3x1000ele:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRemove.EmptyTree:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRemove.NodeMismatch:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRemove.SingleRemove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRemove.RightChildRemove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRemove.LeftChildRemove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRemove.TwoChildrenRemove_3Node:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRemove.TwoChildrenRemove_4Node:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRemove.Random50x30ele:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLStress.InsertRemove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLStress.Remove:
+------------------------------------------------------------------------------
+valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRuntime.InsertAscending:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertAscending
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertAscending
+>> Evaluating runtime of AVLTree::insert() with keys in ascending order
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRuntime.InsertDescending:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertDescending
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertDescending
+>> Evaluating runtime of AVLTree::insert() with keys in descending order
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRuntime.InsertRandom:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertRandom
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertRandom
+>> Evaluating runtime of AVLTree::insert() with keys in random order
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRuntime.RemoveMin:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.RemoveMin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.RemoveMin
+>> Evaluating runtime of AVLTree::remove() on min element
+Testing with 2^0 (1) elements (trial 1/30)
+------------------------------------------------------------------------------
+OUTPUT OF TEST AVLRuntime.RemoveMax:
+------------------------------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.RemoveMax
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.RemoveMax
+>> Evaluating runtime of AVLTree::remove() on max element
+Testing with 2^0 (1) elements (trial 1/30)

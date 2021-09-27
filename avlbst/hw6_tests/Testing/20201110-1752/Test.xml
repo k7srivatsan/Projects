@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20201110-1752-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.10.2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="b36a883d5421"
+	OSRelease="4.19.76-linuxkit"
+	OSVersion="#1 SMP Tue May 26 11:42:35 UTC 2020"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="61"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="1023"
+	TotalPhysicalMemory="1991"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Nov 10 17:52 UTC</StartDateTime>
+		<StartTestTime>1605030763</StartTestTime>
+		<TestList>
+			<Test>./bst_tests/BST.ConstructionDestruction</Test>
+			<Test>./bst_tests/BSTInsert.JustRoot</Test>
+			<Test>./bst_tests/BSTInsert.DoubleInsertLeft</Test>
+			<Test>./bst_tests/BSTInsert.DoubleInsertRight</Test>
+			<Test>./bst_tests/BSTInsert.InsertZigZigLeft</Test>
+			<Test>./bst_tests/BSTInsert.InsertZigZigRight</Test>
+			<Test>./bst_tests/BSTInsert.InsertZigZagLeft</Test>
+			<Test>./bst_tests/BSTInsert.InsertZigZagRight</Test>
+			<Test>./bst_tests/BSTInsert.7Elements</Test>
+			<Test>./bst_tests/BSTClear.Clear</Test>
+			<Test>./bst_tests/BSTFind.InvalidFind</Test>
+			<Test>./bst_tests/BSTInsert.Duplicates</Test>
+			<Test>./bst_tests/BSTInsert.BasicRandom</Test>
+			<Test>./bst_tests/BSTInsert.Random50x30ele</Test>
+			<Test>./bst_tests/BSTInsert.Random3x1000ele</Test>
+			<Test>./bst_tests/BSTRemove.EmptyTree</Test>
+			<Test>./bst_tests/BSTRemove.NodeMismatch</Test>
+			<Test>./bst_tests/BSTRemove.SingleRemove</Test>
+			<Test>./bst_tests/BSTRemove.RightChildRemove</Test>
+			<Test>./bst_tests/BSTRemove.LeftChildRemove</Test>
+			<Test>./bst_tests/BSTRemove.TwoChildrenRemove_3Node</Test>
+			<Test>./bst_tests/BSTRemove.TwoChildrenRemove_4Node</Test>
+			<Test>./bst_tests/BSTRemove.Random50x30ele</Test>
+			<Test>./bst_tests/BSTStress.InsertRemove</Test>
+			<Test>./bst_tests/BSTStress.Remove</Test>
+			<Test>./bst_tests/BSTBalance.EmptyTree</Test>
+			<Test>./bst_tests/BSTBalance.OneNode</Test>
+			<Test>./bst_tests/BSTBalance.3Nodes_Unbalanced</Test>
+			<Test>./bst_tests/BSTBalance.3Nodes_Balanced</Test>
+			<Test>./bst_tests/BSTBalance.UnbalancedSubtree</Test>
+			<Test>./bst_tests/BSTBalance.Random50x30ele</Test>
+			<Test>./bst_tests/BSTRuntime.InsertBalanced</Test>
+			<Test>./bst_tests/BSTRuntime.RemoveBalancedRoot</Test>
+			<Test>./bst_tests/BSTRuntime.RemoveBalancedMin</Test>
+			<Test>./bst_tests/BSTRuntime.GetSmallestNodeBalanced</Test>
+			<Test>./bst_tests/BSTRuntime.FindNodeBalanced</Test>
+			<Test>./bst_tests/BSTRuntime.IteratorBalanced</Test>
+			<Test>./avl_tests/AVLBST.ConstructionDestruction</Test>
+			<Test>./avl_tests/AVLInsert.OneNode</Test>
+			<Test>./avl_tests/AVLInsert.DoubleInsertLeft</Test>
+			<Test>./avl_tests/AVLInsert.DoubleInsertRight</Test>
+			<Test>./avl_tests/AVLInsert.InsertZigZigLeft</Test>
+			<Test>./avl_tests/AVLInsert.InsertZigZigRight</Test>
+			<Test>./avl_tests/AVLInsert.InsertZigZagLeft</Test>
+			<Test>./avl_tests/AVLInsert.InsertZigZagRight</Test>
+			<Test>./avl_tests/AVLInsert.7Elements</Test>
+			<Test>./avl_tests/AVLClear.Clear</Test>
+			<Test>./avl_tests/AVLInsert.Duplicates</Test>
+			<Test>./avl_tests/AVLInsert.Random50x30ele</Test>
+			<Test>./avl_tests/AVLInsert.Random3x1000ele</Test>
+			<Test>./avl_tests/AVLRemove.EmptyTree</Test>
+			<Test>./avl_tests/AVLRemove.NodeMismatch</Test>
+			<Test>./avl_tests/AVLRemove.SingleRemove</Test>
+			<Test>./avl_tests/AVLRemove.RightChildRemove</Test>
+			<Test>./avl_tests/AVLRemove.LeftChildRemove</Test>
+			<Test>./avl_tests/AVLRemove.TwoChildrenRemove_3Node</Test>
+			<Test>./avl_tests/AVLRemove.TwoChildrenRemove_4Node</Test>
+			<Test>./avl_tests/AVLRemove.Random50x30ele</Test>
+			<Test>./avl_tests/AVLStress.InsertRemove</Test>
+			<Test>./avl_tests/AVLStress.Remove</Test>
+			<Test>./avl_tests/AVLRuntime.InsertAscending</Test>
+			<Test>./avl_tests/AVLRuntime.InsertDescending</Test>
+			<Test>./avl_tests/AVLRuntime.InsertRandom</Test>
+			<Test>./avl_tests/AVLRuntime.RemoveMin</Test>
+			<Test>./avl_tests/AVLRuntime.RemoveMax</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>BST.ConstructionDestruction</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BST.ConstructionDestruction</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BST.ConstructionDestruction"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.009372</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BST.ConstructionDestruction"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.JustRoot</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.JustRoot</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.JustRoot"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00727582</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.JustRoot"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.DoubleInsertLeft</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.DoubleInsertLeft</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.DoubleInsertLeft"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0103588</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.DoubleInsertLeft"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.DoubleInsertRight</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.DoubleInsertRight</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.DoubleInsertRight"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0158231</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.DoubleInsertRight"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.InsertZigZigLeft</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.InsertZigZigLeft</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZigLeft"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00865984</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZigLeft"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.InsertZigZigRight</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.InsertZigZigRight</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZigRight"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.01229</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZigRight"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.InsertZigZagLeft</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.InsertZigZagLeft</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZagLeft"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0184431</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZagLeft"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.InsertZigZagRight</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.InsertZigZagRight</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZagRight"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0143201</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZagRight"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.7Elements</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.7Elements</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.7Elements"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0157759</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.7Elements"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTClear.Clear</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTClear.Clear</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTClear.Clear"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0155611</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTClear.Clear"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTFind.InvalidFind</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTFind.InvalidFind</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTFind.InvalidFind"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0196619</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTFind.InvalidFind"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.Duplicates</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.Duplicates</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Duplicates"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0126069</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Duplicates"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.BasicRandom</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.BasicRandom</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.BasicRandom"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0152268</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.BasicRandom"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.Random50x30ele</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.Random50x30ele</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Random50x30ele"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0214241</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Random50x30ele"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTInsert.Random3x1000ele</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTInsert.Random3x1000ele</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Random3x1000ele"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0228391</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Random3x1000ele"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRemove.EmptyTree</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRemove.EmptyTree</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.EmptyTree"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0125599</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.EmptyTree"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRemove.NodeMismatch</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRemove.NodeMismatch</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.NodeMismatch"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00932407</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.NodeMismatch"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRemove.SingleRemove</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRemove.SingleRemove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.SingleRemove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.023011</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.SingleRemove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRemove.RightChildRemove</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRemove.RightChildRemove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.RightChildRemove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0211649</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.RightChildRemove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRemove.LeftChildRemove</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRemove.LeftChildRemove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.LeftChildRemove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0159509</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.LeftChildRemove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRemove.TwoChildrenRemove_3Node</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRemove.TwoChildrenRemove_3Node</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.TwoChildrenRemove_3Node"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00824285</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.TwoChildrenRemove_3Node"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRemove.TwoChildrenRemove_4Node</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRemove.TwoChildrenRemove_4Node</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.TwoChildrenRemove_4Node"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.019208</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.TwoChildrenRemove_4Node"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRemove.Random50x30ele</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRemove.Random50x30ele</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.Random50x30ele"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0144751</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTRemove.Random50x30ele"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTStress.InsertRemove</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTStress.InsertRemove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTStress.InsertRemove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.010781</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTStress.InsertRemove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTStress.Remove</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTStress.Remove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTStress.Remove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0132229</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTStress.Remove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTBalance.EmptyTree</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTBalance.EmptyTree</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.EmptyTree"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0120831</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.EmptyTree"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTBalance.OneNode</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTBalance.OneNode</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.OneNode"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0159149</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.OneNode"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTBalance.3Nodes_Unbalanced</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTBalance.3Nodes_Unbalanced</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.3Nodes_Unbalanced"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0150418</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.3Nodes_Unbalanced"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTBalance.3Nodes_Balanced</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTBalance.3Nodes_Balanced</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.3Nodes_Balanced"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00981092</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.3Nodes_Balanced"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTBalance.UnbalancedSubtree</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTBalance.UnbalancedSubtree</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.UnbalancedSubtree"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00982594</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.UnbalancedSubtree"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTBalance.Random50x30ele</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTBalance.Random50x30ele</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.Random50x30ele"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.015554</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests" "--gtest_filter=BSTBalance.Random50x30ele"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRuntime.InsertBalanced</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRuntime.InsertBalanced</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.InsertBalanced"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0531301</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.InsertBalanced"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.InsertBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.InsertBalanced
+&gt;&gt; Evaluating runtime of BinarySearchTree::insert() with balanced insertions
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRuntime.RemoveBalancedRoot</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRuntime.RemoveBalancedRoot</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.RemoveBalancedRoot"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.028924</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.RemoveBalancedRoot"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.RemoveBalancedRoot
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.RemoveBalancedRoot
+&gt;&gt; Evaluating runtime of BinarySearchTree::remove() root with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRuntime.RemoveBalancedMin</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRuntime.RemoveBalancedMin</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.RemoveBalancedMin"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0359409</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.RemoveBalancedMin"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.RemoveBalancedMin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.RemoveBalancedMin
+&gt;&gt; Evaluating runtime of BinarySearchTree::remove() root with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRuntime.GetSmallestNodeBalanced</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRuntime.GetSmallestNodeBalanced</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.GetSmallestNodeBalanced"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.033772</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.GetSmallestNodeBalanced"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.GetSmallestNodeBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.GetSmallestNodeBalanced
+&gt;&gt; Evaluating runtime of BinarySearchTree::getSmallestNode() with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRuntime.FindNodeBalanced</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRuntime.FindNodeBalanced</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.FindNodeBalanced"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0263481</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.FindNodeBalanced"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.FindNodeBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.FindNodeBalanced
+&gt;&gt; Evaluating runtime of BinarySearchTree::find() with keys in balanced order
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>BSTRuntime.IteratorBalanced</Name>
+			<Path>./bst_tests</Path>
+			<FullName>./bst_tests/BSTRuntime.IteratorBalanced</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.IteratorBalanced"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.023056</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/bst_tests/bst_runtime_tests "--gtest_filter=BSTRuntime.IteratorBalanced"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = BSTRuntime.IteratorBalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRuntime
+[ RUN      ] BSTRuntime.IteratorBalanced
+&gt;&gt; Evaluating runtime of using BinarySearchTree::iterator to iterate over all keys
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLBST.ConstructionDestruction</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLBST.ConstructionDestruction</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLBST.ConstructionDestruction"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00890899</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLBST.ConstructionDestruction"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.OneNode</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.OneNode</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.OneNode"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0106568</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.OneNode"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.DoubleInsertLeft</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.DoubleInsertLeft</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertLeft"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0125699</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertLeft"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.DoubleInsertRight</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.DoubleInsertRight</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertRight"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0126798</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertRight"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.InsertZigZigLeft</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.InsertZigZigLeft</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigLeft"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0164201</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigLeft"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.InsertZigZigRight</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.InsertZigZigRight</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigRight"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0165119</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigRight"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.InsertZigZagLeft</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.InsertZigZagLeft</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagLeft"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.011986</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagLeft"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.InsertZigZagRight</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.InsertZigZagRight</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagRight"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0103409</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagRight"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.7Elements</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.7Elements</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.7Elements"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0205989</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.7Elements"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLClear.Clear</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLClear.Clear</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLClear.Clear"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0150161</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLClear.Clear"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.Duplicates</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.Duplicates</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Duplicates"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00985289</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Duplicates"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.Random50x30ele</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.Random50x30ele</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random50x30ele"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0363581</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random50x30ele"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLInsert.Random3x1000ele</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLInsert.Random3x1000ele</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random3x1000ele"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.012979</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random3x1000ele"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRemove.EmptyTree</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRemove.EmptyTree</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.EmptyTree"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.012552</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.EmptyTree"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRemove.NodeMismatch</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRemove.NodeMismatch</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.NodeMismatch"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0151699</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.NodeMismatch"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRemove.SingleRemove</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRemove.SingleRemove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.SingleRemove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0164959</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.SingleRemove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRemove.RightChildRemove</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRemove.RightChildRemove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.RightChildRemove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0203831</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.RightChildRemove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRemove.LeftChildRemove</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRemove.LeftChildRemove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.LeftChildRemove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0178962</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.LeftChildRemove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRemove.TwoChildrenRemove_3Node</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRemove.TwoChildrenRemove_3Node</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_3Node"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0221939</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_3Node"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRemove.TwoChildrenRemove_4Node</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRemove.TwoChildrenRemove_4Node</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_4Node"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0128121</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_4Node"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRemove.Random50x30ele</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRemove.Random50x30ele</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.Random50x30ele"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0140221</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.Random50x30ele"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLStress.InsertRemove</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLStress.InsertRemove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLStress.InsertRemove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00905704</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLStress.InsertRemove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLStress.Remove</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLStress.Remove</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLStress.Remove"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>127</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0139079</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests" "--gtest_filter=AVLStress.Remove"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>valgrind: /work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_tests: No such file or directory
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRuntime.InsertAscending</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRuntime.InsertAscending</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.InsertAscending"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0329909</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.InsertAscending"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertAscending
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertAscending
+&gt;&gt; Evaluating runtime of AVLTree::insert() with keys in ascending order
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRuntime.InsertDescending</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRuntime.InsertDescending</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.InsertDescending"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.031076</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.InsertDescending"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertDescending
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertDescending
+&gt;&gt; Evaluating runtime of AVLTree::insert() with keys in descending order
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRuntime.InsertRandom</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRuntime.InsertRandom</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.InsertRandom"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.028702</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.InsertRandom"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertRandom
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertRandom
+&gt;&gt; Evaluating runtime of AVLTree::insert() with keys in random order
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRuntime.RemoveMin</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRuntime.RemoveMin</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.RemoveMin"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.022531</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.RemoveMin"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.RemoveMin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.RemoveMin
+&gt;&gt; Evaluating runtime of AVLTree::remove() on min element
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>AVLRuntime.RemoveMax</Name>
+			<Path>./avl_tests</Path>
+			<FullName>./avl_tests/AVLRuntime.RemoveMax</FullName>
+			<FullCommandLine>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.RemoveMax"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>SEGFAULT</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0207441</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/work/hw-ksrivats/hw6/avlbst/hw6_tests/avl_tests/avl_runtime_tests "--gtest_filter=AVLRuntime.RemoveMax"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.RemoveMax
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.RemoveMax
+&gt;&gt; Evaluating runtime of AVLTree::remove() on max element
+Testing with 2^0 (1) elements (trial 1/30)
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 10 17:52 UTC</EndDateTime>
+		<EndTestTime>1605030766</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
